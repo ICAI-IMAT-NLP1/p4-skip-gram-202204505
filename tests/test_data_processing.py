@@ -123,7 +123,7 @@ def test_get_batches():
     assert len(inputs) == len(targets), "Inputs and targets of the first batch do not match in length."
 
     # Additional checks can be made for the contents of inputs and targets
-    # to ensure context windows are correctly implemented.
+    # to ensure context windows are correctly implemented."""
 @pytest.mark.order(6)
 def test_cosine_similarity():
     # Create a simple embedding matrix for testing: 1000 embeddings of size 10
